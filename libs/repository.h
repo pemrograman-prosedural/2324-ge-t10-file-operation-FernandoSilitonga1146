@@ -11,4 +11,6 @@
  *
  */
 
+short line_count(char* fileName);
+
 #endif
