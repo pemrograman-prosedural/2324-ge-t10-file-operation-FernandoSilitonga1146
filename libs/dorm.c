@@ -11,7 +11,7 @@
 Dorm create_dorm ( char *_name, unsigned short _capacity, gender_t _gender )
 {
     Dorm dorm_;
-
+ 
     dorm_.residents_num = 0;
     strcpy( dorm_.name, _name );
     dorm_.capacity = _capacity;

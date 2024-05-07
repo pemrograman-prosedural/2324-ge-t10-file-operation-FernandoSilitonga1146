@@ -14,7 +14,7 @@ short line_count(char* fileName)
     FILE *ptr = fopen(fileName,"r");
     short counter = 0;
     char chr = getc(ptr);
-
+ 
     while (chr != EOF)
     {
         if (chr == '\n') { counter++; }

@@ -20,7 +20,7 @@ Student create_student ( char *_id, char *_name, char *_year, gender_t _gender )
 
     return student_;
 }
-
+ 
 void printStudent ( Student student_to_print )
 {
     if ( strcmp(student_to_print.name, "") != 0 ) {
